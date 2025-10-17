@@ -1,0 +1,10 @@
+C:/Users/g525585/AndroidStudioProjects/mobile_banking_flutter/build/windows/x64/CMakeFiles/INSTALL.dir
+C:/Users/g525585/AndroidStudioProjects/mobile_banking_flutter/build/windows/x64/CMakeFiles/ALL_BUILD.dir
+C:/Users/g525585/AndroidStudioProjects/mobile_banking_flutter/build/windows/x64/CMakeFiles/ZERO_CHECK.dir
+C:/Users/g525585/AndroidStudioProjects/mobile_banking_flutter/build/windows/x64/flutter/CMakeFiles/flutter_wrapper_plugin.dir
+C:/Users/g525585/AndroidStudioProjects/mobile_banking_flutter/build/windows/x64/flutter/CMakeFiles/flutter_wrapper_app.dir
+C:/Users/g525585/AndroidStudioProjects/mobile_banking_flutter/build/windows/x64/flutter/CMakeFiles/flutter_assemble.dir
+C:/Users/g525585/AndroidStudioProjects/mobile_banking_flutter/build/windows/x64/flutter/CMakeFiles/INSTALL.dir
+C:/Users/g525585/AndroidStudioProjects/mobile_banking_flutter/build/windows/x64/runner/CMakeFiles/mobile_banking_flutter.dir
+C:/Users/g525585/AndroidStudioProjects/mobile_banking_flutter/build/windows/x64/runner/CMakeFiles/INSTALL.dir
+C:/Users/g525585/AndroidStudioProjects/mobile_banking_flutter/build/windows/x64/runner/CMakeFiles/ALL_BUILD.dir

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\g525585\AndroidStudioProjects\mobile_banking_flutter\build\windows\x64\CMakeFiles\66eb19c9d4390cdf18d2717ebe4731be\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7792DBD6-B614-30C7-BC7F-9BE204C3FA3C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
