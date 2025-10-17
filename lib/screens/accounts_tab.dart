@@ -368,8 +368,8 @@ class _AccountsTabState extends State<AccountsTab> {
                         ),
                       ),
                     ),
-                    DataCell(Text('\${account.balance.toStringAsFixed(2)}')),
-                    DataCell(Text('\${account.creditLimit.toStringAsFixed(2)}')),
+                    DataCell(Text('\$${account.balance?.toStringAsFixed(2) ?? '0.00'}')),
+                    DataCell(Text('\$${account.creditLimit?.toStringAsFixed(2) ?? '0.00'}')),
                     DataCell(
                       Container(
                         padding: const EdgeInsets.symmetric(
