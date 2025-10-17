@@ -293,21 +293,21 @@ flutter pub get
 ### **🌐 Run Web Application (Web Server Mode)**
 
 ```bash
-flutter run -d web-server --web-port=8080
+flutter run -d web-server --web-port=64421
 ```
 
 **Output:**
 ```
 Launching lib/main.dart on Web Server in debug mode...
 Building application for the web...                                                     
-Serving web application at http://localhost:8080
+Serving web application at http://localhost:64421
 ```
 
 ### **✅ Access the Application**
 
 Open your browser and navigate to:
 ```
-http://localhost:8080
+http://localhost:64421
 ```
 
 **Login Credentials:**
