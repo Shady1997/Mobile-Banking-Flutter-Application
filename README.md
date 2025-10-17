@@ -16,11 +16,11 @@ A comprehensive cross-platform mobile banking management system built with Flutt
 - [Project Structure](#-project-structure)
 - [Installation](#-installation)
 - [Running the Application](#-running-the-application)
-    - [Step 1: Start Backend Server](#step-1-start-backend-server)
-    - [Step 2: Run Flutter Web (Recommended)](#step-2-run-flutter-web-recommended)
-    - [Step 3: Run on Desktop](#step-3-run-on-desktop-optional)
-    - [Step 4: Run on Android](#step-4-run-on-android-optional)
-    - [Step 5: Run on iOS](#step-5-run-on-ios-optional)
+  - [Step 1: Start Backend Server](#step-1-start-backend-server)
+  - [Step 2: Run Flutter Web (Recommended)](#step-2-run-flutter-web-recommended)
+  - [Step 3: Run on Desktop](#step-3-run-on-desktop-optional)
+  - [Step 4: Run on Android](#step-4-run-on-android-optional)
+  - [Step 5: Run on iOS](#step-5-run-on-ios-optional)
 - [Testing](#-testing)
 - [Troubleshooting](#-troubleshooting)
 - [API Documentation](#-api-documentation)
@@ -706,19 +706,19 @@ Add CORS configuration to backend:
 // backend/src/main/java/com/banking/config/CorsConfig.java
 @Configuration
 public class CorsConfig {
-    @Bean
-    public WebMvcConfigurer corsConfigurer() {
-        return new WebMvcConfigurer() {
-            @Override
-            public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/api/**")
-                        .allowedOrigins("http://localhost:8080", "http://localhost:3000")
-                        .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
-                        .allowedHeaders("*")
-                        .allowCredentials(true);
-            }
-        };
-    }
+  @Bean
+  public WebMvcConfigurer corsConfigurer() {
+    return new WebMvcConfigurer() {
+      @Override
+      public void addCorsMappings(CorsRegistry registry) {
+        registry.addMapping("/api/**")
+                .allowedOrigins("http://localhost:8080", "http://localhost:3000")
+                .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
+                .allowedHeaders("*")
+                .allowCredentials(true);
+      }
+    };
+  }
 }
 ```
 
@@ -954,10 +954,10 @@ mvn spring-boot:run
 # 2. In new terminal - Run Flutter Web
 cd frontend
 flutter pub get
-flutter run -d web-server --web-port=8080
+flutter run -d web-server --web-port=64421
 
 # 3. Open browser
-http://localhost:8080
+http://localhost:64421
 
 # 4. Login
 Username: shady1997
